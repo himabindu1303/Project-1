@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-info " id="nav1">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">
+          <h2>PRODUCT ADMIN</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav gap-3 ms-auto">
+            <li class="nav-item bg-warning">
+              <i class="bi bi-speedometer2"></i>
+              <a class="nav-link active" aria-current="page" href="#dashboard">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-file-earmark-text"></i>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Reports</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-cart4"></i>
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-person"></i>
+              <a class="nav-link" href="#Account-section">Accounts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <i class="bi bi-gear"></i>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Settings</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Billing</a></li>
+                <li><a class="dropdown-item" href="#">Customize</a></li>
+              </ul>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item admin">
+              <a class="nav-link" href="#">admin,Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="dashboard">
+    <p class="mt-5 ms-5">Welcome back <b>Admin</b></p>
+
+    <div class="d-flex flex-wrap " id="graphs">
+      <div class="card m-4 p-3" style="width: 30rem;">
+        <h3>Latest Hits</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZF8PEO4YPMujyQoQJjs2Zas0BCmHUa9Nr_M2618p2QW2a2_VFFccM97_4hr1CFGjnus&usqp=CAU"
+          class="card-img-top" alt="...">
+      </div>
+
+      <div class="card m-4 p-3" style="width: 30rem;">
+        <h3>Performance</h3>
+        <img src="https://www.jaspersoft.com/content/dam/jaspersoft/images/graphics/infographics/bar-chart-example.svg"
+          class="card-img-top" alt="...">
+      </div>
+
+      <div class="card m-4 p-3" style="width: 30rem;">
+        <h3>Storage Information</h3>
+        <img
+          src="https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/images/Reading_a_pie_chart_example.svg.png"
+          class="card-img-top" alt="...">
+      </div>
+
+      <div class="card m-4 p-3" id="" style="width: 30rem; height: 343px;">
+        <h3>Notification List</h3>
+        <div class="nlist">
+          <div>
+            <img class="rounded-circle" src="https://i.pinimg.com/236x/6d/5f/4f/6d5f4fcec14d35427ae11b589a4acb3b.jpg"
+              alt="" width="80" height="80">
+            <p><b>Jessica</b> and <b>6 others</b> sent you new <span>product updates.</span> check new orders <br> 6h
+              ago</p>
+          </div>
+          <div>
+            <img class="rounded-circle" src="https://i.pinimg.com/736x/91/02/42/9102429764582924126171ba7037f0bf.jpg"
+              alt="" width="80" height="80">
+            <p><b>Oliver Too</b> and <b>6 others</b> sent you existing <span>product updates.</span> Read more reports
+              <br> 6h ago
+            </p>
+          </div>
+          <div>
+            <img class="rounded-circle" src="https://i.pinimg.com/236x/d8/43/15/d84315bd4a67dbf7210079a24a18f23f.jpg"
+              alt="" width="80" height="80">
+            <p><b>Victoria</b> and <b>6 others</b> sent you new <span>product updates.</span> Read more information <br>
+              6h ago</p>
+          </div>
+          <div>
+            <img class="rounded-circle" src="https://i.pinimg.com/236x/6d/5f/4f/6d5f4fcec14d35427ae11b589a4acb3b.jpg"
+              alt="" width="80" height="80">
+            <p><b>Jessica</b> and <b>6 others</b> sent you new <span>product updates.</span> check new orders <br> 6h
+              ago</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="table-responsive ms-4 me-4">
+      <table class="table ">
+        <thead>
+          <tr style="text-align: center;">
+            <th>ORDER NO.</th>
+            <th>STATUS</th>
+            <th>OPERATORS</th>
+            <th>LOCATION</th>
+            <th>DISTANCE</th>
+            <th>START DATE</th>
+            <th>EST DELIVERY DUE</th>
+          </tr>
+        </thead>
+        <tbody style="text-align: center;">
+          <tr>
+            <td>#12345</td>
+            <td>Moving</td>
+            <td>Oliver Trag</td>
+            <td>London,UK</td>
+            <td>485km</td>
+            <td>16:00,12 NOV 2018</td>
+            <td>18:00,18 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12346</td>
+            <td>Pending</td>
+            <td>Jacod Miller</td>
+            <td>London,UK</td>
+            <td>350km</td>
+            <td>14:00,13 NOV 2018</td>
+            <td>12:00,16 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12347</td>
+            <td>Pending</td>
+            <td>Geroge Millson</td>
+            <td>London,UK</td>
+            <td>386km</td>
+            <td>17:00,24 NOV 2018</td>
+            <td>16:00,29 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12348</td>
+            <td>Moving</td>
+            <td>William Aung</td>
+            <td>London,UK</td>
+            <td>456km</td>
+            <td>14:00,12 NOV 2018</td>
+            <td>16:00,17 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12349</td>
+            <td>Moving</td>
+            <td>Harry Ryan</td>
+            <td>London,UK</td>
+            <td>784km</td>
+            <td>17:00,12 NOV 2018</td>
+            <td>21:00,17 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12350</td>
+            <td>pending</td>
+            <td>Himabindu</td>
+            <td>London,UK</td>
+            <td>563km</td>
+            <td>16:00,15 NOV 2018</td>
+            <td>17:00,20 NOV 2018</td>
+          </tr>
+          <tr>
+            <td>#12351</td>
+            <td>Moving</td>
+            <td>Geroge Willson</td>
+            <td>London,UK</td>
+            <td>386km</td>
+            <td>17:00,24 NOV 2018</td>
+            <td>16:00,29 NOV 2018</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </main>
+
+  <footer class="mt-3 text-center p-2 ">
+    <p>Copyright &copy;2024 All rights Reserved Design: Template Mo</p>
+  </footer>
+
+  <nav class="navbar navbar-expand-lg bg-info mt-3 ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h2>PRODUCT ADMIN</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-3 ms-auto">
+          <li class="nav-item">
+            <div><i class="bi bi-speedometer2"></i></div>
+            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <div><i class="bi bi-file-earmark-text"></i></div>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Reports</a>
+          </li>
+          <li class="nav-item">
+            <div><i class="bi bi-cart4"></i></div>
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item bg-warning">
+            <div><i class="bi bi-person"></i></div>
+            <a class="nav-link" href="#">Accounts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <div><i class="bi bi-gear"></i></div>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Settings</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Billing</a></li>
+              <li><a class="dropdown-item" href="#">Customize</a></li>
+            </ul>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item admin">
+            <a class="nav-link " href="#">admin,Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="Account-section">
+    <div id="accounts" class="mt-3 ms-3 me-2">
+      <h5>List of Accounts</h5>
+      <p>Accounts</p>
+      <select id="acc" name="acc" style="width: 100%" class="p-2 ">
+        <option value="se">Select Account</option>
+        <option value="bi">Bindu</option>
+        <option value="ve">Vennela</option>
+        <option value="hi">hima</option>
+      </select>
+    </div>
+
+    <div class="Settings d-flex flex-wrap justify-content-center mb-5">
+      <div class="card  p-3 mt-4 " style="width: 22rem; "> <!--  1st div in flex   -->
+        <h5 class="card-title">Change Avatar</h5>
+        <img src="https://jzhang.ca/content/uploads/sites/651/self.jpeg" class="card-img-top" alt="..." height="200px">
+        <div class="card-body">
+          <a href="#" class="btn btn-primary w-100 ">Upload new Photo</a>
+        </div>
+      </div>
+
+      <div class="act-settings p-5 "> <!--   2nd div in flex  -->
+        <h5>Account Settings</h5>
+        <div class="container"> <!--    grid     -->
+          <div class="row">
+            <div class="col">
+              <label for="name">Account Name</label><br>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="col">
+              <label for="mail">Account Email</label><br>
+              <input type="email" id="mail" name="mail">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="ps">Password</label><br>
+              <input type="password" id="ps" name="ps">
+            </div>
+            <div class="col">
+              <label for="ps">Re-enter Password</label><br>
+              <input type="password" id="ps" name="ps">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="phone">Phone</label><br>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="col">
+              <input type="submit" id="" name="" value="Update your Profile" class="mt-4 text-light w-75" style="background-color: green; 
+                  border-radius: 5px; border: none;">
+            </div>
+          </div>
+
+          <div class="row">
+            <a href="#" class="btn w-100 mt-3 text-light" style="background-color: green;">Delete your Account</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
